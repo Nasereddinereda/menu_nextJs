@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+/* Drawer  */
+
+.css-pr8qjy{
+    background-color: #20232a !important;
+}
+
+/* Close Button  */
+
+.css-gx5d6b{
+    width: 25px !important;
+    height: 25px !important;
+    outline: 0 !important;
+    border-color: red !important;
+}
+
+.css-gx5d6b:focus{
+    box-shadow: none !important;
+}
+
+.css-onkibi {
+    color: #f4f4ef !important;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+
+/* Header  */
+
+.css-1qd2q6s {
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    letter-spacing: 2px;
+    margin-top: 6px;
+    padding: 5px 5px 10px 5px!important;
+}
+
+/* Body  */
+
+.css-kdzhnq{
+overflow-y: scroll !important;
+padding-left: 0 !important;
+padding-right: 5% !important;
+}
+
+.css-kdzhnq::-webkit-scrollbar {
+  width: 0.3em;
+  cursor: pointer !important ;
+}
+ 
+
+
+.css-kdzhnq::-webkit-scrollbar-thumb {
+  background-color: #2c5d91 !important;
+  border-radius: 10% !important;
+}
+.css-kdzhnq::-webkit-scrollbar-thumb:hover {
+  background-color: #2d5683 !important;
+}
+
+
+
+
+
+/* Others */
+
+.category{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    color: #C4C4C4;
+}
+
+
+.separation{
+    width: 100%;
+    height: 1.5px;
+    background-color:  #303238;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.user-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 8%;
+}
+
+.icon-svg svg {
+    font-size: 30px !important;
+    border-radius: 5px;
+    padding-top: 5px ;
+    fill : #f4f4ef !important;
+    background: #414245;
+}
+
+.side-svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-svg svg{
+    fill : #f4f4ef !important;
+}
+
+.css-title{
+    font-weight: 300;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mb-category{
+    width: 100%;
+    height: 0.4rem;
+}
+
+
+/* Sub menu  */
+.line-menu{
+    padding: 5px;
+}
+
+.line-menu:hover{
+    background: rgba(44, 93, 145 , 0.2);
+    border-top-left-radius : 5px;
+    border-top-right-radius : 5px;
+}
+
+.line-menu:hover .icon-svg{
+margin-left: 0.2rem;
+}
+
+.line-menu:hover .css-title{
+color: #a01d26!important;
+font-weight: 500 ;
+}
+
+.current-sub{
+    width: 5%;
+    height: auto;
+}
+
+.line-sub:hover .current-sub{
+    border-left: #2c5d91 4.5px solid;
+}
+
+.child-menu{
+    background: #292d35;
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius : 5px;
+}
+
+.line-menu-active{
+    border-top-left-radius : 5px;
+    border-top-right-radius : 5px;
+    background: #292d35;
+}
+
+
+.line-child{
+    color: #f4f4ef !important;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.line-child:hover{
+    color: #a01d26!important;
+    font-weight: 450 ;
+}

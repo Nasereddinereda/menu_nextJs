@@ -1,0 +1,162 @@
+/* Display  */
+
+.flex{
+    display: flex;
+}
+
+.justify-end{
+    justify-content:flex-end !important;
+}
+
+.justify-between{
+    justify-content: space-between !important;
+}
+
+/* Size  */
+
+.w-95{
+    width: 95%;
+}
+
+.w-86 {
+    width: 86% !important;
+}
+
+
+/* Spacing  */
+
+.p-3{
+    padding: 0.6rem;
+}
+
+.py-2{
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+}
+
+.mt-5{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 0.4rem;
+}
+
+.ml-7p{
+    margin-left: 7%;
+}
+
+.ml-4{
+    margin-left: 0.8rem;
+}
+
+.mr-4{
+    margin-right: 0.8rem;
+}
+
+.mb-3{
+    margin-bottom: 0.6rem ;
+}
+
+.mb-2{
+    margin-bottom: 0.4rem ;
+}
+
+.m-5{
+    margin: 1rem;
+}
+
+
+
+
+/* Color  */
+
+
+.css-bg-success{
+    background-color: #53A43D !important;
+}
+
+.css-bg-success:hover{
+   background-color: #578a49 !important; 
+}
+
+.css-bg-danger{
+    background-color: #a01d26 !important;
+}
+
+.css-bg-danger:hover{
+   background-color: #861f26 !important; 
+}
+
+
+.css-cl-white255{
+    color: white !important;
+}
+
+.css-cl-white{
+    color: #f4f4ef;
+}
+
+.css-cl-grey{
+    color: #A2A2A2;
+}
+
+
+
+/* Button  */
+
+.css-outline-primary{
+    color: #a01d26 !important;
+    border-color: #a01d26;
+}
+
+
+/* Font */
+
+
+.ft-wg-700{
+    font-weight: 650;
+}
+
+.ft-wg-300{
+    font-weight: 350;
+}
+
+.css-none-line{
+    line-height: 1;
+}
+
+.sp-lt-2{
+    letter-spacing: 1.5px;
+}
+
+
+
+/* Others  */
+
+
+
+
+
+.online{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background: #53A43D;
+    margin-right: 4px;
+}
+
+
+.br-bottom{
+    border-bottom: 1.5px solid #303238;
+}
+
+
+.cr-pt {
+    cursor: pointer;
+}
+
+
+.outile-none{
+    outline: none !important;
+    box-shadow: none !important;
+}
